@@ -6,6 +6,8 @@ It requires CRuby (TruffleRuby shows promise, but it's not yet working) and the 
 
 Controls are arrows or WASD, space to pause/unpause, R to restart, and Esc to quit.
 
+![Nokia-style Snake screenshot](screenshot.jpg)
+
 ## Basic features demonstrated
 
 - `InitWindow` / `WindowShouldClose` / `BeginDrawing` / `EndDrawing` lifecycle

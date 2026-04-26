@@ -2,7 +2,7 @@
 
 A small Nokia-style snake game written in Ruby that exists purely as a demo for the Raylib 6.0-targeting [raylib-bindings](https://github.com/vaiorabbit/raylib-bindings) gem prior to its inclusion in https://rubyweekly.com/
 
-It requires CRuby (TruffleRuby shows promise, but it's not yet working) and the `raylib-bindings` gem (`gem install raylib-bindings`). Then you just `ruby snake.rb`.
+It requires CRuby (TruffleRuby does [not work](https://github.com/truffleruby/truffleruby/issues/3835) yet) and the `raylib-bindings` gem (`gem install raylib-bindings`). Then you just `ruby snake.rb`.
 
 Controls are arrows or WASD, space to pause/unpause, R to restart, and Esc to quit.
 
